@@ -4,7 +4,39 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+.page {
+
+
+}
+
+.iphone {
+  float:left;
+  margin-left: 10%;
+  padding-right: 5%;
+  z-index: 1;
+  position: relative;
+}
+
+.topblue {
+  background-color: #1c5380;
+  width: 100%;
+  padding: 200px;
+  overflow: hidden;
+  position: relative;
+
+
+
+}
+.content {
+  position: relative;
+
+  float: right;
+}
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-color: white;
+    overflow: hidden;
+    position: relative
 }
